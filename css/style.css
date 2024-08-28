@@ -1,0 +1,74 @@
+/* Style for the header/navigation section */
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Style for the logo section */
+.logo {
+  width: 23%;
+  padding: 1%;
+  /* background-color: blue; */
+}
+
+.logo p {
+  display: inline-block;
+}
+
+/* Style for the navigation section */
+nav {
+  width: 72%;
+  padding: 1%;
+  /* background-color: aqua; */
+}
+
+/* Style the unordered list within the navigation */
+nav ul {
+  /* width: 50%; */
+  /* margin-left: auto; */
+  float: right;
+}
+
+/* Style each list item */
+nav li {
+  padding: 5px 10px;
+}
+
+  /* .navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #E6E6E6;
+  } */
+
+  
+/* Hero image section */
+.heroImg {
+  height: 600px;
+  padding: 25px;
+  background-color: #F0F0F0;
+}
+/* Content inside the hero image section */
+.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+/* Footer styling */
+footer {
+  background-color: #373738;
+  padding: 20px 0px;
+  /* text-align: center; */
+}
+/* Unordered list inside the footer */
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+}
+  /* Footer list items */
+  footer ul li {
+    padding: 5px 10px;
+    color: white;
+  }
